@@ -1,0 +1,30 @@
+/* Dark Mode */
+.dark .post-card {
+    border-radius: 16px;
+    background: var(--brand-dark-card-base, rgba(24, 26, 34, 0.74));
+    backdrop-filter: blur(12px);
+    border-color: var(--bkg-border-dark, rgba(0, 0, 0, 0.50)); /* Adjust border color for dark mode */
+}
+
+.dark .search-bar-div{
+    background: var(--brand-dark-card-base, rgba(24, 26, 34, 0.74));
+    backdrop-filter: blur(12px);
+    color:white;
+}
+.dark .choosen_element{
+    background: var(--brand-dark-card-base, rgba(24, 26, 34, 0.74));
+}
+.dark input#search-bar {
+    background: var(--brand-dark, rgba(14, 15, 19, 0.74));
+    border: 1px solid #4f4e4e;
+}
+.dark .create-post h3{
+    background: linear-gradient(146deg, #AAA6FF 0%, #FB9EFF 112.41%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.dark .create-post span {
+    background: var(--brand-light-surface-base, #FFF);
+    color: var(--brand-light-primary, #503FFD);
+  }

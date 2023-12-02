@@ -1,0 +1,103 @@
+.dark{
+    background-color: #141718;
+    color: #fff;
+}
+.wrap.dark {
+    background-color: transparent;
+}
+.dark .item-div {
+    border: 4px solid var(--bkg-border, rgba(255, 255, 255, 0.50));
+    background: rgba(24, 26, 34, 0.74);
+    backdrop-filter: blur(12px);
+}
+
+/* Modify the background for .card-background */
+.dark .card-background{
+    background:none;
+}
+.dark h2, .dark h3{
+    color:white;
+}
+.dark .forms-container{
+    background: rgba(24, 26, 34, 0.74);
+    border-radius: 10px;
+}
+
+
+
+/* Modify the background and border for .filters-style and .tab-style */
+.dark .filters-style,
+.dark .tab-style {
+    border-radius: 40px;
+    border: 5px solid var(--bkg-border-dark, rgba(0, 0, 0, 0.50));
+    background: var(--brand-dark-surface-base, #111215);
+    backdrop-filter: blur(12px);
+}
+
+/* Modify the background and text color for buttons */
+.dark button.filter-button,
+.dark button.tab-style,
+.dark .tab-style-button {
+    background-color: #111215;
+    color: var(--brand-light-gray, #777E90);
+}
+.dark h1{
+    color:white;
+}
+
+/* Modify the button hover effect */
+.dark button.filter-button:hover,
+.dark button.tab-style:hover,
+.dark .tab-style-button:hover {
+    background-color: #222;
+}
+
+
+/* Modify the styles for .form */
+.dark .form {
+    border: 1px solid #222;
+    background: rgba(24, 26, 34, 0.74);
+}
+
+/* Modify the label color */
+.dark .form label {
+    color: var(--brand-light-primary-light, #5445EB);
+}
+
+/* Modify the border color for form inputs and textarea */
+.dark .form input[type="text"],
+.dark .form select,
+.dark .form textarea,
+.dark .form input#words_per_article,
+.dark textarea#topics,
+.dark textarea,
+.dark input#topics,
+.dark .drawer-content select,
+.dark .drawer-content input[type="text"] {
+    border: 1px solid var(--primary-gray-50, #C2C2C2);
+    background: var(--brand-dark-surface-base, #111215);
+    color: var(--brand-text-text-dark, #F7F7F7);
+}
+.dark .row {
+    background: var(--bkg-border, linear-gradient(155deg, rgba(75, 75, 75, 0.274) 12.33%, rgb(65 65 65 / 0%) 34.31%, rgb(65 65 65 / 0%) 52.66%, rgb(65 65 65 / 54%) 74.67%));
+}
+.dark input[type=radio]{
+    background-color: transparent;
+}
+
+.dark .create-post {
+    border-radius: 16px;
+    background: var(--brand-dark-card-base, rgba(24, 26, 34, 0.74));
+    backdrop-filter: blur(12px);
+}
+.dark .create-post img,
+.dark .button-span img{
+    filter: invert(0%);
+}
+.dark .create-post:hover {
+    box-shadow: 2px 2px 7px black !important;
+}
+.dark .button-span {
+    background: var(--brand-light-surface-base, #FFF);
+    color: var(--brand-light-primary, #503FFD);
+}

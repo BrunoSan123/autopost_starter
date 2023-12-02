@@ -1,0 +1,34 @@
+.dark .tab-content-card {
+    border: 2px solid rgba(255, 255, 255, 0.50);
+    background: color(srgb 0.09 0.1 0.12 / 0.89);
+    backdrop-filter: blur(12px);
+    color: white;
+}
+.dark .tab-content-card b,
+.dark .tab-content-card span,
+.dark .form-table th{
+    color: white;
+}
+.dark .form-table input[type="text"], 
+.dark .form-table input[type="password"],
+.form-table select-item{
+    border-radius: 16px;
+    background: #161A1F;
+    backdrop-filter: blur(12px);
+    color: white;
+}
+.dark .tab-content-card-gp {
+    border-radius: 40px;
+    border: 5px solid var(--bkg-border-dark, rgba(0, 0, 0, 0.50));
+    background: var(--brand-dark-surface-base, #111215);
+    backdrop-filter: blur(12px);
+}
+.dark .form label,
+.dark .settings-subitem-header {
+    color: var(--brand-light-primary-light, #5445EB) !important;
+}
+.dark p.settings-title-subtitle,
+.dark .settings-subitem{
+    color: white !important;
+}
+

@@ -1,0 +1,14 @@
+.dark .modal-item{
+    border-radius: 16px;
+    background: #161A1F;
+    backdrop-filter: blur(12px);
+}
+.dark .modal-item h2, .dark .modal-item h3 {
+    background: var(--brand-dark-linear-gradient, linear-gradient(146deg, #AAA6FF 0%, #FB9EFF 112.41%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.dark .drawer p{
+    color: white;
+  }

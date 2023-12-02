@@ -1,0 +1,60 @@
+/* Reset some default padding and margin */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style for the wrap container */
+.wrap {
+    margin: 20px;
+    padding: 20px;
+}
+
+/* Style for the heading */
+h2 {
+    margin-bottom: 20px;
+}
+
+/* Style for the row and columns */
+.row {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 18px;
+}
+
+.column {
+    margin: 10px;
+}
+
+/* Style for the cards */
+
+
+/* Style for the table within the "Usage Cost" card */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: none !important;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+/* Style for the "Usage" card with a bar graph (you can customize this as needed) */
+
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .column {
+        width: 100%;
+    }
+}

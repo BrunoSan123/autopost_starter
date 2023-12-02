@@ -1,0 +1,767 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-11-28 12:08-0300\n"
+"PO-Revision-Date: 2023-11-28 13:41-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.4.1\n"
+
+#: chatgpt-post-creator.php:372
+#, php-format
+msgid "%s texto recriado com sucesso."
+msgid_plural "%s textos recriados com sucesso."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions/custom_actions.php:46
+msgctxt "post"
+msgid "Queue"
+msgstr "Fila"
+
+#: functions/custom_actions.php:51
+#, php-format
+msgid "Queue (%s)"
+msgid_plural "Novo Queue(%s)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions/pages.php:5
+msgid "Configurações do ChatGPT Autopost"
+msgstr "Configurações do ChatGPT Autopost"
+
+#: functions/pages_functions.php:126
+msgid "Gerar Textos"
+msgstr "Gerar Textos"
+
+#: functions/projects_page.php:13
+msgid "Generator Page"
+msgstr "Página do gerador"
+
+#: functions/projects_page.php:17
+msgid "Search through your articles"
+msgstr "Pesquise em seus artigos"
+
+#: functions/projects_page.php:18
+msgid "Search..."
+msgstr "Pesquisar..."
+
+#: functions/projects_page.php:91
+#: functions/settings/settings-page-aiapis.php:10
+msgid "Generating"
+msgstr "Gerando"
+
+#: functions/projects_page.php:97
+msgid "Last Modified"
+msgstr "Última Modificação"
+
+#: functions/projects_page.php:115
+msgid "No post data"
+msgstr "Sem dados de postagem"
+
+#: functions/projects_page.php:134
+msgid "Create new article"
+msgstr "Crie um novo artigo"
+
+#: functions/settings_page.php:16
+msgid "ChatGPT Autopost Settings"
+msgstr "Configurações do Chatgpt AutoPost"
+
+#: functions/pages/create_post_page.php:11
+msgid "Lets enhance the criativity!"
+msgstr "Vamos melhorar a criatividade!"
+
+#: functions/pages/create_post_page.php:12
+msgid "Define yout topics,they will be used to create your post content"
+msgstr ""
+"Defina tópicos do YouT, eles serão usados para criar seu conteúdo de "
+"postagem"
+
+#: functions/pages/create_post_page.php:16
+msgid "Topics to generate"
+msgstr "Tópicos para gerar"
+
+#: functions/pages/create_post_page.php:17
+msgid "Generate a topic with AI"
+msgstr "Gerar um tópico com ai"
+
+#: functions/pages/create_post_page.php:19
+msgid "This is a description placeholder"
+msgstr "Este é um espaço reservado para descrição"
+
+#: functions/pages/create_post_page.php:31
+msgid "Create with your own prompt"
+msgstr "Crie com seu próprio prompt"
+
+#: functions/pages/create_post_page.php:32
+msgid ""
+"Using this mode will can use your skills to enhance even more the creation "
+"with Autopost"
+msgstr ""
+"O uso deste modo pode usar suas habilidades para aprimorar ainda mais a "
+"criação com o AutoPost"
+
+#: functions/pages/create_post_page.php:58
+msgid "Generation Customization"
+msgstr "Personalização de geração"
+
+#: functions/pages/create_post_page.php:59
+msgid "Customize your generation"
+msgstr "Personalize sua geração"
+
+#: functions/pages/create_post_page.php:66
+msgid "Other Option"
+msgstr "Outra opção"
+
+#: functions/pages/create_post_page.php:71
+msgid "Writen Tone"
+msgstr "Tom de escrita"
+
+#: functions/pages/create_post_page.php:74
+msgid "Other tone"
+msgstr "Outro tom"
+
+#: functions/pages/create_post_page.php:83
+msgid "Advanced Mode Preferences"
+msgstr "Preferências de modo avançado"
+
+#: functions/pages/create_post_page.php:84
+msgid "Choose how to generate"
+msgstr "Escolha como gerar"
+
+#: functions/pages/create_post_page.php:98
+msgid "Image Generators"
+msgstr "Geradores de imagem"
+
+#: functions/pages/create_post_page.php:104
+msgid "Other Image Generator"
+msgstr "Outro gerador de imagem"
+
+#: functions/pages/create_post_page.php:112
+msgid "Text Style"
+msgstr "Estilo de texto"
+
+#: functions/pages/create_post_page.php:113
+msgid "Define style and language"
+msgstr "Definir estilo e linguagem"
+
+#: functions/pages/create_post_page.php:117
+msgid "Text Language:"
+msgstr "Linguagem de texto:"
+
+#: functions/pages/create_post_page.php:119
+#: functions/settings/settings-general.php:55
+msgid "Portugues"
+msgstr "Portugues"
+
+#: functions/pages/create_post_page.php:120
+msgid "English"
+msgstr "Inglês"
+
+#: functions/pages/create_post_page.php:128
+msgid "iacontrol"
+msgstr ""
+
+#: functions/pages/create_post_page.php:129
+msgid "Customize your generations"
+msgstr "Personalize suas gerações"
+
+#: functions/pages/create_post_page.php:133
+msgid "Temperature:"
+msgstr "Temperatura:"
+
+#: functions/pages/create_post_page.php:139
+msgid "Max Ctx. Tokens:"
+msgstr "Max Ctx.Tokens:"
+
+#: functions/pages/create_post_page.php:145
+msgid "Amount to Generate:"
+msgstr "Valor para gerar:"
+
+#: functions/pages/create_post_page.php:151
+msgid "Repetition Penalty:"
+msgstr "Penalidade de repetição:"
+
+#: functions/pages/create_post_page.php:157
+msgid "Big Text Count:"
+msgstr "Grande contagem de texto:"
+
+#: functions/pages/create_post_page.php:166
+#: functions/settings/settings-general.php:65
+msgid "Image Options"
+msgstr "Opções de imagem"
+
+#: functions/pages/create_post_page.php:170
+msgid "Gerar Imagens no post"
+msgstr "Gerar Imagens no post"
+
+#: functions/pages/create_post_page.php:180
+msgid "Auto Link"
+msgstr "Link automático"
+
+#: functions/pages/create_post_page.php:184
+msgid "Link other posts"
+msgstr "Vincular outras postagens"
+
+#: functions/pages/create_post_page.php:200
+msgid "Publishing settings"
+msgstr "Configurações de publicação"
+
+#: functions/pages/create_post_page.php:203
+msgid "STATUS:"
+msgstr "STATUS:"
+
+#: functions/pages/create_post_page.php:207
+msgid "Publish"
+msgstr "Publicar"
+
+#: functions/pages/create_post_page.php:212
+msgid "Draft"
+msgstr "Rascunho"
+
+#: functions/pages/create_post_page.php:216
+msgid "Schedule"
+msgstr "Agendar"
+
+#: functions/pages/create_post_page.php:220
+msgid "Daily Schedule"
+msgstr "Cronograma diário"
+
+#: functions/pages/create_post_page.php:223
+msgid "AUTOR:"
+msgstr "AUTOR:"
+
+#: functions/pages/create_post_page.php:247
+msgid "CATEGORIA:"
+msgstr "CATEGORIA:"
+
+#: functions/pages/create_post_page.php:261
+msgid "Create Category"
+msgstr "Criar categoria"
+
+#: functions/pages/create_post_page.php:275
+msgid "Social Media"
+msgstr "Mídia social"
+
+#: functions/pages/create_post_page.php:279
+msgid "Publish in my accounts"
+msgstr "Publique em minhas contas"
+
+#: functions/pages/create_post_page.php:288
+msgid "Prompt helper"
+msgstr "Auxiliar rápido"
+
+#: functions/pages/dashboard.php:124
+msgid "Dashboard"
+msgstr "Painel"
+
+#: functions/pages/dashboard.php:131 templates/generate_buttons.php:4
+msgid "Create new post (Bash)"
+msgstr "Crie uma nova postagem (festa)"
+
+#: functions/pages/dashboard.php:132 functions/pages/dashboard.php:136
+#: templates/generate_buttons.php:5 templates/generate_buttons.php:9
+msgid "Generate with AI"
+msgstr "Gerar com ai"
+
+#: functions/pages/dashboard.php:135 templates/generate_buttons.php:8
+msgid "Create new post"
+msgstr "Crie uma nova postagem"
+
+#: functions/pages/dashboard.php:141
+msgid "Usage Cost"
+msgstr "Custo de uso"
+
+#: functions/pages/dashboard.php:174
+msgid "Generated Articles"
+msgstr "Artigos gerados"
+
+#: functions/pages/dashboard.php:194
+msgid "Used Topics"
+msgstr "Tópicos usados"
+
+#: functions/pages/dashboard.php:214
+msgid "Generated Words"
+msgstr "Palavras geradas"
+
+#: functions/pages/dashboard.php:221
+msgid "Usage"
+msgstr "Uso"
+
+#: functions/settings/settings-general.php:10
+msgid "Generating Preferences"
+msgstr "Gerando preferências"
+
+#: functions/settings/settings-general.php:11
+msgid "Add your own touch and customize how you want the AI’s outputs to be."
+msgstr ""
+"Adicione seu próprio toque e personalize como deseja que as saídas da IA "
+"sejam."
+
+#: functions/settings/settings-general.php:12
+msgid ""
+"Obs: These settings and preferences will be applied to all future "
+"generations you create. You can customize them individually for each "
+"article when making edits"
+msgstr ""
+"Obs: Essas configurações e preferências serão aplicadas a todas as gerações "
+"futuras que você criar. Você pode personalizá-las individualmente para cada "
+"artigo ao fazer edições"
+
+#: functions/settings/settings-general.php:20
+msgid "Default Creation Mode"
+msgstr "Modo de criação padrão"
+
+#: functions/settings/settings-general.php:26
+msgid "Customize your generations with some help"
+msgstr "Personalize suas gerações com alguma ajuda"
+
+#: functions/settings/settings-general.php:28
+msgid "Generation customization"
+msgstr "Personalização de geração"
+
+#: functions/settings/settings-general.php:31
+msgid "Words per Article:"
+msgstr "Palavras por artigo:"
+
+#: functions/settings/settings-general.php:32
+msgid "How many words each generated article must have"
+msgstr "Quantas palavras cada artigo gerado deve ter"
+
+#: functions/settings/settings-general.php:35
+msgid "Type per Article"
+msgstr "Tipo por artigo"
+
+#: functions/settings/settings-general.php:37
+msgid "Default (Blog post)"
+msgstr "Padrão (postagem do blog)"
+
+#: functions/settings/settings-general.php:38
+msgid "News"
+msgstr "Notícias"
+
+#: functions/settings/settings-general.php:39
+msgid "Review"
+msgstr "Análise"
+
+#: functions/settings/settings-general.php:42
+msgid "Written Tone"
+msgstr "Tom escrito"
+
+#: functions/settings/settings-general.php:44
+msgid "Default (Neutral)"
+msgstr "Padrão (neutro)"
+
+#: functions/settings/settings-general.php:45
+msgid "Casual"
+msgstr "Casual"
+
+#: functions/settings/settings-general.php:46
+msgid "Professional"
+msgstr "Profissional"
+
+#: functions/settings/settings-general.php:50
+msgid "Text style"
+msgstr "Estilo de texto"
+
+#: functions/settings/settings-general.php:52
+msgid "Generated Text Language"
+msgstr "Linguagem de texto gerada"
+
+#: functions/settings/settings-general.php:54
+#: functions/settings/settings-preferences.php:33
+msgid "Default (English)"
+msgstr "Padrão (inglês)"
+
+#: functions/settings/settings-general.php:58
+msgid "Select font"
+msgstr "Selecione Fonte"
+
+#: functions/settings/settings-general.php:60
+msgid "Default (DM Sans)"
+msgstr "Padrão (DM Sans)"
+
+#: functions/settings/settings-general.php:61
+msgid "Arial"
+msgstr "Arial"
+
+#: functions/settings/settings-general.php:62
+msgid "Verdana"
+msgstr "Verdana"
+
+#: functions/settings/settings-general.php:67
+msgid "Aspect Ratio"
+msgstr "Proporção da tela"
+
+#: functions/settings/settings-general.php:68
+msgid "Select your prefered aspect ratio to use when generating images"
+msgstr "Selecione sua proporção preferida a ser usada ao gerar imagens"
+
+#: functions/settings/settings-general.php:71
+msgid "none"
+msgstr "nenhum"
+
+#: functions/settings/settings-general.php:87
+msgid "Image style"
+msgstr "Estilo de imagem"
+
+#: functions/settings/settings-general.php:89
+msgid "Default (Illustration)"
+msgstr "Padrão (ilustração)"
+
+#: functions/settings/settings-general.php:90
+msgid "Photography"
+msgstr "Fotografia"
+
+#: functions/settings/settings-general.php:91
+msgid "Painting"
+msgstr "Pintura"
+
+#: functions/settings/settings-general.php:94
+msgid "Quantity of images"
+msgstr "Quantidade de imagens"
+
+#: functions/settings/settings-general.php:95
+msgid "How many images you want to generate automatically per article"
+msgstr "Quantas imagens você deseja gerar automaticamente por artigo"
+
+#: functions/settings/settings-general.php:97
+msgid "Let the AI define for me"
+msgstr "Deixe a IA definir para mim"
+
+#: functions/settings/settings-general.php:118
+msgid "Advanced Creation Mode"
+msgstr "Modo de criação avançada"
+
+#: functions/settings/settings-general.php:124
+msgid "Obs: Activate this mode will disable the Default Creation Mode"
+msgstr "OBS: Ative este modo Desativará o modo de criação padrão"
+
+#: functions/settings/settings-general.php:127
+msgid "Prompt for Titles"
+msgstr "Prompt para títulos"
+
+#: functions/settings/settings-general.php:128
+msgid ""
+"Crie uma lista de ${quantity}  palavras-chaves para determinado topico "
+"${topic}"
+msgstr ""
+"Crie uma lista de ${quantity}  palavras-chaves para determinado topico "
+"${topic}"
+
+#: functions/settings/settings-general.php:129
+#: functions/settings/settings-general.php:133
+#: functions/settings/settings-general.php:137
+#: functions/settings/settings-general.php:141
+msgid "This prompt will build your"
+msgstr "Este prompt irá construir seu"
+
+#: functions/settings/settings-general.php:129
+msgid "Titles"
+msgstr "Títulos"
+
+#: functions/settings/settings-general.php:131
+msgid "Prompt for Intros"
+msgstr "Prompt for Intros"
+
+#: functions/settings/settings-general.php:132
+msgid ""
+"Tendo [key] como tema. Gere a seção Introdução com tom explicativo, formal, "
+"com ao menos 250 palavras"
+msgstr ""
+"Tendo [key] como tema. Gere a seção Introdução com tom explicativo, formal, "
+"com ao menos 250 palavras"
+
+#: functions/settings/settings-general.php:133
+msgid "Intros"
+msgstr "Intros"
+
+#: functions/settings/settings-general.php:135
+msgid "Prompt for Sections"
+msgstr "Prompt para seções"
+
+#: functions/settings/settings-general.php:136
+msgid ""
+"Tendo [key] como tema. Gere a seção com tom explicativo, formal, com 250 "
+"palavras"
+msgstr ""
+"Tendo [key] como tema. Gere a seção com tom explicativo, formal, com 250 "
+"palavras"
+
+#: functions/settings/settings-general.php:137
+msgid "Sections"
+msgstr "Seções"
+
+#: functions/settings/settings-general.php:139
+msgid "Prompt for Conclusion"
+msgstr "Prompt para conclusão"
+
+#: functions/settings/settings-general.php:140
+msgid "Termine um artigo tendo [key] como tema."
+msgstr "Termine um artigo tendo [key] como tema."
+
+#: functions/settings/settings-general.php:141
+msgid "Conclusions"
+msgstr "Conclusões"
+
+#: functions/settings/settings-general.php:143
+msgid "Custom Section"
+msgstr "Seção personalizada"
+
+#: functions/settings/settings-general.php:144
+msgid "Lorem ipsum"
+msgstr "Lorem ipsum"
+
+#: functions/settings/settings-page-aiapis.php:8
+msgid "Setup your APIs"
+msgstr "Configure suas APIs"
+
+#: functions/settings/settings-page-aiapis.php:9
+msgid ""
+"Customize your API settings here to create both text and images. Choose "
+"which one you want to prioritize for text and image generation."
+msgstr ""
+"Personalize suas configurações de API aqui para criar texto e imagens."
+"Escolha qual você deseja priorizar para geração de texto e imagem."
+
+#: functions/settings/settings-page-aiapis.php:10
+msgid "Obs: The articles in"
+msgstr "Obs: os artigos em"
+
+#: functions/settings/settings-page-aiapis.php:10
+msgid ""
+"state will be continuing being generated with the same API until it’s done."
+msgstr ""
+"o estado continuará sendo gerado com a mesma API até que esteja concluído."
+
+#: functions/settings/settings-page-aiapis.php:16
+msgid "Select your prefered API for"
+msgstr "Selecione sua API preferida para"
+
+#: functions/settings/settings-page-aiapis.php:16
+msgid "Text"
+msgstr "Texto"
+
+#: functions/settings/settings-page-aiapis.php:38
+msgid "Sign up or log in to OpenAI, get your API key and paste above -"
+msgstr ""
+"Inscreva -se ou faça login no OpenAI, obtenha sua chave da API e cole acima "
+"-"
+
+#: functions/settings/settings-page-aiapis.php:38
+msgid "Click here to get your API key."
+msgstr "Clique aqui para obter sua tecla API."
+
+#: functions/settings/settings-page-aiapis.php:101
+msgid ""
+"Sign up or log in to Google, get your API key and paste above - <strong><a "
+"href=\"openai.com\">Click here to get your API key."
+msgstr ""
+"Inscreva -se ou faça login no Google, obtenha sua chave da API e cole acima "
+"- <strong> <a href=\"openai.com\"> Clique aqui para obter sua chave de API."
+
+#: functions/settings/settings-page-aiapis.php:144
+msgid "Id for imageSearch -"
+msgstr "ID do Imagesearch -"
+
+#: functions/settings/settings-page-aiapis.php:144
+msgid "Click here to get your Search ID."
+msgstr "Clique aqui para obter seu ID de pesquisa."
+
+#: functions/settings/settings-page-authors.php:11
+msgid "Manage your authors"
+msgstr "Gerencie seus autores"
+
+#: functions/settings/settings-page-authors.php:12
+msgid "Create, remove, define the default authors"
+msgstr "Criar, remover, definir os autores padrão"
+
+#: functions/settings/settings-page-authors.php:18
+msgid "Actions"
+msgstr "Ações"
+
+#: functions/settings/settings-page-authors.php:23
+#: functions/settings/settings-page-authors.php:328
+#, fuzzy
+msgid "Remove"
+msgstr ""
+"Tem certeza de que deseja remover este autor? Esta ação não pode ser "
+"desfeita"
+
+#: functions/settings/settings-page-authors.php:26
+msgid "Add new author +"
+msgstr "Adicionar novo autor +"
+
+#: functions/settings/settings-page-authors.php:39
+msgid "Nome do Autor"
+msgstr "Nome do Autor"
+
+#: functions/settings/settings-page-authors.php:40
+#: functions/settings/settings-page-authors.php:249
+#: functions/settings/settings-page-authors.php:290
+msgid "Email"
+msgstr "E-mail"
+
+#: functions/settings/settings-page-authors.php:41
+msgid "Artigos Escritos"
+msgstr "Artigos Escritos"
+
+#: functions/settings/settings-page-authors.php:42
+msgid "Ativar/Desativar"
+msgstr "Ativar/Desativar"
+
+#: functions/settings/settings-page-authors.php:43
+msgid "Ações"
+msgstr "Ações"
+
+#: functions/settings/settings-page-authors.php:245
+#: functions/settings/settings-page-authors.php:286
+msgid "Name"
+msgstr "Nome"
+
+#: functions/settings/settings-page-authors.php:256
+#: functions/settings/settings-page-authors.php:297
+msgid "Define as Default"
+msgstr "Defina como padrão"
+
+#: functions/settings/settings-page-authors.php:266
+#: functions/settings/settings-page-authors.php:307
+#: functions/settings/settings-page-authors.php:327
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: functions/settings/settings-page-authors.php:267
+msgid "Add New Author"
+msgstr "Adicionar novo autor"
+
+#: functions/settings/settings-page-authors.php:278
+msgid "Edit author"
+msgstr "Autor de edição"
+
+#: functions/settings/settings-page-authors.php:309
+msgid "Save Changes"
+msgstr "Salvar alterações"
+
+#: functions/settings/settings-page-authors.php:320
+msgid "Remove Author"
+msgstr "Remova o autor"
+
+#: functions/settings/settings-page-authors.php:323
+msgid ""
+"Are you sure you want to remove this author? This action can’t be undone"
+msgstr ""
+"Tem certeza de que deseja remover este autor? Esta ação não pode ser "
+"desfeita"
+
+#: functions/settings/settings-page-socialmedia.php:10
+msgid "Post on social media automatically"
+msgstr "Publique nas mídias sociais automaticamente"
+
+#: functions/settings/settings-page-socialmedia.php:11
+msgid "Setup your accounts and define your preferences"
+msgstr "Configure suas contas e defina suas preferências"
+
+#: functions/settings/settings-page-socialmedia.php:12
+msgid ""
+"Obs: You will still can enable/disable for each post and define where you "
+"going to post."
+msgstr ""
+"OBS: Você ainda poderá ativar/desativar cada postagem e definir onde você "
+"postará."
+
+#: functions/settings/settings-page-socialmedia.php:29
+msgid "Connect your Facebook"
+msgstr "Conecte seu Facebook"
+
+#: functions/settings/settings-page-socialmedia.php:30
+#: functions/settings/settings-page-socialmedia.php:109
+#: functions/settings/settings-page-socialmedia.php:185
+#: functions/settings/settings-page-socialmedia.php:269
+msgid "Remove Account"
+msgstr "Remover conta"
+
+#: functions/settings/settings-page-socialmedia.php:41
+#: functions/settings/settings-page-socialmedia.php:119
+#: functions/settings/settings-page-socialmedia.php:201
+#: functions/settings/settings-page-socialmedia.php:280
+msgid "Post automatically"
+msgstr "Poste automaticamente"
+
+#: functions/settings/settings-page-socialmedia.php:108
+msgid "Connect your LinkedIn"
+msgstr "Conecte seu LinkedIn"
+
+#: functions/settings/settings-page-socialmedia.php:182
+msgid "Twitter / X"
+msgstr "Twitter / x"
+
+#: functions/settings/settings-page-socialmedia.php:184
+msgid "Connect your Twitter"
+msgstr "Conecte seu Twitter"
+
+#: functions/settings/settings-page-socialmedia.php:268
+msgid "Connect your Pinterest"
+msgstr "Conecte seu Pinterest"
+
+#: functions/settings/settings-preferences.php:8
+msgid "Setup your preferences for the platform"
+msgstr "Configure suas preferências para a plataforma"
+
+#: functions/settings/settings-preferences.php:21
+msgid "Interface language"
+msgstr "Idioma da interface"
+
+#: functions/settings/settings-preferences.php:32
+msgid "Select Your Languague"
+msgstr "Selecione sua lingua"
+
+#: functions/settings/settings-preferences.php:34
+msgid "Português"
+msgstr "Português"
+
+#: functions/settings/settings-preferences.php:135
+msgid "Theme"
+msgstr "Tema"
+
+#: functions/settings/settings-preferences.php:137
+msgid "Default (Light mode)"
+msgstr "Padrão (modo de luz)"
+
+#: functions/settings/settings-preferences.php:138
+msgid "Dark Mode"
+msgstr "Modo escuro"
+
+#: functions/settings/settings-preferences.php:146
+msgid ""
+"Let AI automatically refeer your articles inside your new articles and "
+"improve your site’s SEO."
+msgstr ""
+"Deixe a IA refazer automaticamente seus artigos dentro de seus novos "
+"artigos e melhorar o SEO do seu site."
+
+#: templates/autopost_form_switch.php:3
+msgid "Default Createion Mode"
+msgstr "Modo de criação padrão"
+
+#: templates/autopost_form_switch.php:5
+msgid "advanced Creation Mode"
+msgstr "modo de criação avançada"
+
+#: templates/sidebar_plugin.php:64
+msgid "PUBLICAR"
+msgstr "PUBLICAR"
+
+#: templates/sidebar_plugin.php:72
+msgid "RASCUNHO"
+msgstr "RASCUNHO"

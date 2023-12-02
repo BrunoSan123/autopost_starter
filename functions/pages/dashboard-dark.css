@@ -1,0 +1,7 @@
+.dark .wrap {
+    margin: 20px;
+    padding: 20px;
+}
+.dark table, th, td {
+    border: 1px solid #ccc;
+}

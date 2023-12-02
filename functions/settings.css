@@ -1,0 +1,154 @@
+a.tab-style-button.tab-active {
+    background: var(--brand-light-primary, #503FFD);
+    color: var(--primary-neutral-0, #EFF3FA);
+    text-align: center;
+    font-family: DMSans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.28px;
+	text-decoration: none;
+}
+.tab-content-card{
+    height: 100%;
+    padding: 24px;
+    background: white;
+    border-radius: 16px;
+    overflow: hidden;
+    border: 2px white solid;
+    backdrop-filter: blur(24px);
+	z-index: 2;
+    position: sticky;
+	max-width: 1025px;
+}
+.full {
+    max-width: 96%;
+}
+
+.tab-content-card-gp{
+	height: 100%;
+    padding: 24px;
+    background: white;
+    border-radius: 16px;
+    overflow: hidden;
+    border: 2px white solid;
+	backdrop-filter: blur(24px);
+	max-width: 960px;
+	
+}
+.tab-content-card-gp h3,
+.tab-content-card h3{
+    align-self: stretch;
+    color: #503FFD;
+    margin-top: 0px;
+    font-size: 24px;
+    font-family: DMSans;
+    font-weight: 700;
+    line-height: 40px;
+    word-wrap: break-word;
+	z-index: 2;
+    position: sticky;
+}
+.tab-content-card b{
+    color: #23262F;
+    font-size: 20px;
+    font-family: DMSans;
+    font-weight: 700;
+    line-height: 36px;
+    word-wrap: break-word;
+	z-index: 2;
+    position: sticky;
+}
+.tab-content-card span{
+    color: #23262F;
+    font-size: 16px;
+    font-family: DMSans;
+    font-weight: 400;
+    line-height: 32px;
+    word-wrap: break-word;
+	z-index: 2;
+    position: sticky;
+}
+.settings-field h2{
+        border: 5px solid var(--bkg-border, rgba(255, 255, 255, 0.50));
+        backdrop-filter: blur(12px);
+        padding: 20px;
+        border-radius: 16px;
+        margin: 5px;
+        min-width: 200px !important;
+        max-width: 100%;
+        border: 5px solid rgb(215 215 215 / 29%);
+}
+.settings-field /* Style the form table */
+.form-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+/* Style table header (optional) */
+.form-table th {
+    text-align: left;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* Style table rows */
+.form-table tr {
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Style table cells */
+.form-table td {
+    padding: 10px;
+}
+
+/* Style odd rows differently (optional) */
+.form-table tr:nth-child(odd) {
+    /* background-color: #f3f3f3; */
+}
+
+/* Style form labels */
+.form-table label {
+    font-weight: bold;
+}
+
+/* Style form inputs */
+.form-table input[type="text"],
+.form-table input[type="password"],
+.form-table select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Style form buttons (e.g., submit button) */
+.form-table input[type="submit"] {
+    background-color: #0073e6;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Style button hover effect */
+.form-table input[type="submit"]:hover {
+    background-color: #005bbd;
+}
+
+/* Style form success message (optional) */
+.form-success {
+    background-color: #2ecc71;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
